@@ -1,13 +1,25 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(30,27,46,0.7), rgba(122,90,148,0.7)),
+        url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background: #1e1b2e; 
+    background: linear-gradient(to right, #3f3a5b, #8a6bbc, #7a5a94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .logo{
-    width: 60px;
+    width: 80px;
 }
 
 .frase{
@@ -46,4 +58,18 @@
 
 .registro:hover{
     background: #7e22ce;
+}
+
+.card{
+    background: linear-gradient(to right, #6b658d, #8a6bbc, #7a5a94);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+.contenedor-card{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
 }
