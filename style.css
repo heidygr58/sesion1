@@ -3,7 +3,7 @@ body{
     min-height: 100vh;
     background:
         linear-gradient(rgba(30,27,46,0.7), rgba(122,90,148,0.7)),
-        url("fondo.jpg");
+        url("img/fondo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,4 +72,30 @@ body{
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
+}
+
+.modal-dialog{
+    padding: 10px;
+    background-color: #9333ea;
+    border-radius: 5px;
+    box-shadow: 0 0 50px white ;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer{
+    background: linear-gradient(to right, #6b658d, #8a6bbc, #7a5a94) !important;
+}
+
+.footer{
+    background: linear-gradient(to right, #1e1b2e, #3f3a5b, #7a5a94);
+    color: #e2e8f0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 1px solid #7e22ce;
+}
+
+.final{
+    width: 30px;
 }
